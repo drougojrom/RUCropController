@@ -22,6 +22,12 @@ class RUCropOverlayView: UIView {
     var bottomRightLineViews = NSArray()
     var topRightLineViews = NSArray()
     
+    override var frame: CGRect {
+        didSet {
+            layoutLines()
+        }
+    }
+    
     override init(frame: CGRect){
         super.init(frame: frame)
         
@@ -33,31 +39,35 @@ class RUCropOverlayView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
+    override func didMoveToSuperview() {
+        super.didMoveToSuperview()
+        
+        layoutLines()
+    }
+    
     func setup() {
-        let newLineView: ((_: Void) -> UIView)? = {(_: Void) -> UIView in
-            //return self.createNewLineView()
+        let newLineView: (() -> UIView)? = {(_: Void) -> UIView in
+            return self.createNewLineView()
         }
-        outerLineViews = [newLineView, newLineView, newLineView, newLineView]
-        topLeftLineViews = [newLineView, newLineView]
-        bottomLeftLineViews = [newLineView, newLineView]
-        topRightLineViews = [newLineView, newLineView]
-        bottomRightLineViews = [newLineView, newLineView]
+        
+        outerLineViews = NSArray(array: [newLineView, newLineView, newLineView, newLineView])
+        topLeftLineViews = NSArray(array: [newLineView, newLineView])
+        bottomLeftLineViews = NSArray(array: [newLineView, newLineView])
+        topRightLineViews = NSArray(array: [newLineView, newLineView])
+        bottomRightLineViews = NSArray(array: [newLineView, newLineView])
         //displayHorizontalGridLines = true
         //displayVerticalGridLines = true
     }
     
-//    var frame: CGRect {
-//        //layoutLines()
-//    }
-
+    func layoutLines() {
+        
+    }
     
-//    override func didMoveToSuperview() {
-//        super.didMoveToSuperview()
-//        if outerLineViews {
-//            layoutLines()
-//        }
-//    }
-    
+    func createNewLineView() -> UIView {
+        
+        
+        return UIView()
+    }
 }
 
 
