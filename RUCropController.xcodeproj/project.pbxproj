@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E003F9C41F8774E90020854F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E003F9C31F8774E90020854F /* AppDelegate.swift */; };
+		E003F9C61F8774E90020854F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E003F9C51F8774E90020854F /* ViewController.swift */; };
+		E003F9C91F8774E90020854F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E003F9C71F8774E90020854F /* Main.storyboard */; };
+		E003F9CB1F8774E90020854F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E003F9CA1F8774E90020854F /* Assets.xcassets */; };
+		E003F9CE1F8774E90020854F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E003F9CC1F8774E90020854F /* LaunchScreen.storyboard */; };
+		E003F9D91F8774E90020854F /* RUCropControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E003F9D81F8774E90020854F /* RUCropControllerTests.swift */; };
+		E003F9E41F8774E90020854F /* RUCropControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E003F9E31F8774E90020854F /* RUCropControllerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E003F9D51F8774E90020854F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E003F9B81F8774E90020854F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E003F9BF1F8774E90020854F;
+			remoteInfo = RUCropController;
+		};
+		E003F9E01F8774E90020854F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E003F9B81F8774E90020854F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E003F9BF1F8774E90020854F;
+			remoteInfo = RUCropController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E003F9C01F8774E90020854F /* RUCropController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUCropController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E003F9C31F8774E90020854F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E003F9C51F8774E90020854F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E003F9C81F8774E90020854F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E003F9CA1F8774E90020854F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E003F9CD1F8774E90020854F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E003F9CF1F8774E90020854F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E003F9D41F8774E90020854F /* RUCropControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RUCropControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E003F9D81F8774E90020854F /* RUCropControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUCropControllerTests.swift; sourceTree = "<group>"; };
+		E003F9DA1F8774E90020854F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E003F9DF1F8774E90020854F /* RUCropControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RUCropControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E003F9E31F8774E90020854F /* RUCropControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUCropControllerUITests.swift; sourceTree = "<group>"; };
+		E003F9E51F8774E90020854F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E003F9BD1F8774E90020854F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E003F9D11F8774E90020854F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E003F9DC1F8774E90020854F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E003F9B71F8774E90020854F = {
+			isa = PBXGroup;
+			children = (
+				E003F9C21F8774E90020854F /* RUCropController */,
+				E003F9D71F8774E90020854F /* RUCropControllerTests */,
+				E003F9E21F8774E90020854F /* RUCropControllerUITests */,
+				E003F9C11F8774E90020854F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E003F9C11F8774E90020854F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E003F9C01F8774E90020854F /* RUCropController.app */,
+				E003F9D41F8774E90020854F /* RUCropControllerTests.xctest */,
+				E003F9DF1F8774E90020854F /* RUCropControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E003F9C21F8774E90020854F /* RUCropController */ = {
+			isa = PBXGroup;
+			children = (
+				E003F9C31F8774E90020854F /* AppDelegate.swift */,
+				E003F9C51F8774E90020854F /* ViewController.swift */,
+				E003F9C71F8774E90020854F /* Main.storyboard */,
+				E003F9CA1F8774E90020854F /* Assets.xcassets */,
+				E003F9CC1F8774E90020854F /* LaunchScreen.storyboard */,
+				E003F9CF1F8774E90020854F /* Info.plist */,
+			);
+			path = RUCropController;
+			sourceTree = "<group>";
+		};
+		E003F9D71F8774E90020854F /* RUCropControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E003F9D81F8774E90020854F /* RUCropControllerTests.swift */,
+				E003F9DA1F8774E90020854F /* Info.plist */,
+			);
+			path = RUCropControllerTests;
+			sourceTree = "<group>";
+		};
+		E003F9E21F8774E90020854F /* RUCropControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E003F9E31F8774E90020854F /* RUCropControllerUITests.swift */,
+				E003F9E51F8774E90020854F /* Info.plist */,
+			);
+			path = RUCropControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E003F9BF1F8774E90020854F /* RUCropController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E003F9E81F8774E90020854F /* Build configuration list for PBXNativeTarget "RUCropController" */;
+			buildPhases = (
+				E003F9BC1F8774E90020854F /* Sources */,
+				E003F9BD1F8774E90020854F /* Frameworks */,
+				E003F9BE1F8774E90020854F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RUCropController;
+			productName = RUCropController;
+			productReference = E003F9C01F8774E90020854F /* RUCropController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E003F9D31F8774E90020854F /* RUCropControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E003F9EB1F8774E90020854F /* Build configuration list for PBXNativeTarget "RUCropControllerTests" */;
+			buildPhases = (
+				E003F9D01F8774E90020854F /* Sources */,
+				E003F9D11F8774E90020854F /* Frameworks */,
+				E003F9D21F8774E90020854F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E003F9D61F8774E90020854F /* PBXTargetDependency */,
+			);
+			name = RUCropControllerTests;
+			productName = RUCropControllerTests;
+			productReference = E003F9D41F8774E90020854F /* RUCropControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E003F9DE1F8774E90020854F /* RUCropControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E003F9EE1F8774E90020854F /* Build configuration list for PBXNativeTarget "RUCropControllerUITests" */;
+			buildPhases = (
+				E003F9DB1F8774E90020854F /* Sources */,
+				E003F9DC1F8774E90020854F /* Frameworks */,
+				E003F9DD1F8774E90020854F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E003F9E11F8774E90020854F /* PBXTargetDependency */,
+			);
+			name = RUCropControllerUITests;
+			productName = RUCropControllerUITests;
+			productReference = E003F9DF1F8774E90020854F /* RUCropControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E003F9B81F8774E90020854F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Roman Ustiantcev";
+				TargetAttributes = {
+					E003F9BF1F8774E90020854F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					E003F9D31F8774E90020854F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E003F9BF1F8774E90020854F;
+					};
+					E003F9DE1F8774E90020854F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E003F9BF1F8774E90020854F;
+					};
+				};
+			};
+			buildConfigurationList = E003F9BB1F8774E90020854F /* Build configuration list for PBXProject "RUCropController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E003F9B71F8774E90020854F;
+			productRefGroup = E003F9C11F8774E90020854F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E003F9BF1F8774E90020854F /* RUCropController */,
+				E003F9D31F8774E90020854F /* RUCropControllerTests */,
+				E003F9DE1F8774E90020854F /* RUCropControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E003F9BE1F8774E90020854F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E003F9CE1F8774E90020854F /* LaunchScreen.storyboard in Resources */,
+				E003F9CB1F8774E90020854F /* Assets.xcassets in Resources */,
+				E003F9C91F8774E90020854F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E003F9D21F8774E90020854F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E003F9DD1F8774E90020854F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E003F9BC1F8774E90020854F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E003F9C61F8774E90020854F /* ViewController.swift in Sources */,
+				E003F9C41F8774E90020854F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E003F9D01F8774E90020854F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E003F9D91F8774E90020854F /* RUCropControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E003F9DB1F8774E90020854F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E003F9E41F8774E90020854F /* RUCropControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E003F9D61F8774E90020854F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E003F9BF1F8774E90020854F /* RUCropController */;
+			targetProxy = E003F9D51F8774E90020854F /* PBXContainerItemProxy */;
+		};
+		E003F9E11F8774E90020854F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E003F9BF1F8774E90020854F /* RUCropController */;
+			targetProxy = E003F9E01F8774E90020854F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E003F9C71F8774E90020854F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E003F9C81F8774E90020854F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E003F9CC1F8774E90020854F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E003F9CD1F8774E90020854F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E003F9E61F8774E90020854F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E003F9E71F8774E90020854F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E003F9E91F8774E90020854F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVMU6WZ9AZ;
+				INFOPLIST_FILE = RUCropController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ru-platform.RUCropController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E003F9EA1F8774E90020854F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVMU6WZ9AZ;
+				INFOPLIST_FILE = RUCropController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ru-platform.RUCropController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E003F9EC1F8774E90020854F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVMU6WZ9AZ;
+				INFOPLIST_FILE = RUCropControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ru-platform.RUCropControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RUCropController.app/RUCropController";
+			};
+			name = Debug;
+		};
+		E003F9ED1F8774E90020854F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVMU6WZ9AZ;
+				INFOPLIST_FILE = RUCropControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ru-platform.RUCropControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RUCropController.app/RUCropController";
+			};
+			name = Release;
+		};
+		E003F9EF1F8774E90020854F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVMU6WZ9AZ;
+				INFOPLIST_FILE = RUCropControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ru-platform.RUCropControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RUCropController;
+			};
+			name = Debug;
+		};
+		E003F9F01F8774E90020854F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NVMU6WZ9AZ;
+				INFOPLIST_FILE = RUCropControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ru-platform.RUCropControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RUCropController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E003F9BB1F8774E90020854F /* Build configuration list for PBXProject "RUCropController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E003F9E61F8774E90020854F /* Debug */,
+				E003F9E71F8774E90020854F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E003F9E81F8774E90020854F /* Build configuration list for PBXNativeTarget "RUCropController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E003F9E91F8774E90020854F /* Debug */,
+				E003F9EA1F8774E90020854F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E003F9EB1F8774E90020854F /* Build configuration list for PBXNativeTarget "RUCropControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E003F9EC1F8774E90020854F /* Debug */,
+				E003F9ED1F8774E90020854F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E003F9EE1F8774E90020854F /* Build configuration list for PBXNativeTarget "RUCropControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E003F9EF1F8774E90020854F /* Debug */,
+				E003F9F01F8774E90020854F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E003F9B81F8774E90020854F /* Project object */;
+}
