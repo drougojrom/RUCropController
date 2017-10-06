@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RUActivityCroppedImageProvider: UIActivityItemProvider {
+@objc class RUActivityCroppedImageProvider: UIActivityItemProvider {
     
     private(set) var image: UIImage?
     private(set) var cropFrame = CGRect.zero
@@ -16,13 +16,13 @@ class RUActivityCroppedImageProvider: UIActivityItemProvider {
     private(set) var isCircular = false
 
     var croppedImage: UIImage?
-    init(image: UIImage, cropFrame: CGRect, angle: Int, circular: Bool) {
+        
+    @objc init(image: UIImage, cropFrame: CGRect, angle: Int, circular: Bool) {
         super.init(placeholderItem: UIImage())
         self.image = image
         self.cropFrame = cropFrame
         self.angle = angle
         isCircular = circular
-    
     }
 // MARK: - UIActivity Protocols -
     override func activityViewControllerPlaceholderItem(_ activityViewController: UIActivityViewController) -> Any {

@@ -10,30 +10,30 @@ import Foundation
 import UIKit
 import QuartzCore
 
-class RUCropViewControllerTransitioning: NSObject, UIViewControllerAnimatedTransitioning {
+@objc class RUCropViewControllerTransitioning: NSObject, UIViewControllerAnimatedTransitioning {
     /* State Tracking */
-    var isDismissing = false
+    @objc var isDismissing = false
     // Whether this animation is presenting or dismissing
-    var image: UIImage?
+    @objc var image: UIImage?
     // The image that will be used in this animation
     /* Destination/Origin points */
-    var fromView: UIView?
+    @objc var fromView: UIView?
     // The origin view who's frame the image will be animated from
-    var toView: UIView?
+    @objc var toView: UIView?
     // The destination view who's frame the image will animate to
-    var fromFrame = CGRect.zero
+    @objc var fromFrame = CGRect.zero
     // An origin frame that the image will be animated from
-    var toFrame = CGRect.zero
+    @objc var toFrame = CGRect.zero
     // A destination frame the image will aniamte to
     /* A block called just before the transition to perform any last-second UI configuration */
-    var prepareForTransitionHandler: (() -> Void)?
+    @objc var prepareForTransitionHandler: (() -> Void)?
     /* Empties all of the properties in this object */
     
-    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+    @objc func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return 0.45 as TimeInterval
     }
     
-    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+    @objc func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         // Get the master view where the animation takes place
         let containerView: UIView? = transitionContext.containerView
         // Get the origin/destination view controllers
@@ -94,7 +94,7 @@ class RUCropViewControllerTransitioning: NSObject, UIViewControllerAnimatedTrans
         })
     }
     
-    func reset() {
+    @objc func reset() {
         image = nil
         toView = nil
         fromView = nil
