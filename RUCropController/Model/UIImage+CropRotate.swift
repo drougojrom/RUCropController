@@ -9,14 +9,14 @@
 import UIKit
 import CoreGraphics
 
-extension UIImage {
+@objc public extension UIImage {
     
-    func hasAlpha() -> Bool {
+    @objc public func hasAlpha() -> Bool {
         let alphaInfo: CGImageAlphaInfo = cgImage!.alphaInfo
         return alphaInfo == .first || alphaInfo == .last || alphaInfo == .premultipliedFirst || alphaInfo == .premultipliedLast
     }
     
-    func croppedImage(withFrame frame: CGRect, angle: Int, circularClip circular: Bool) -> UIImage {
+    @objc public func croppedImage(withFrame frame: CGRect, angle: Int, circularClip circular: Bool) -> UIImage {
         var croppedImage: UIImage? = nil
         UIGraphicsBeginImageContextWithOptions(frame.size, !hasAlpha() && !circular, scale)
         do {
