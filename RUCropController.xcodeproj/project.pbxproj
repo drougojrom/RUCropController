@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E00113631F8BCDF400FF5AAA /* RUCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = E00113621F8BCDF400FF5AAA /* RUCropOverlayView.m */; };
 		E003F9C41F8774E90020854F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E003F9C31F8774E90020854F /* AppDelegate.swift */; };
 		E003F9C61F8774E90020854F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E003F9C51F8774E90020854F /* ViewController.swift */; };
 		E003F9C91F8774E90020854F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E003F9C71F8774E90020854F /* Main.storyboard */; };
@@ -18,8 +19,7 @@
 		E0A0C5AB1F87784F00040A9C /* RUActivityCroppedImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A0C5AA1F87784F00040A9C /* RUActivityCroppedImageProvider.swift */; };
 		E0A0C5AD1F8778BF00040A9C /* UIImage+CropRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A0C5AC1F8778BF00040A9C /* UIImage+CropRotate.swift */; };
 		E0A0C5AF1F877BE700040A9C /* RUCroppedImageAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A0C5AE1F877BE700040A9C /* RUCroppedImageAttributes.swift */; };
-		E0A0C5B11F877C6B00040A9C /* RUCropOverlayView-debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A0C5B01F877C6B00040A9C /* RUCropOverlayView-debug.swift */; };
-		E0A0C5E51F87A78100040A9C /* RUCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A0C5E41F87A78100040A9C /* RUCropOverlayView.m */; };
+		E0A0C5B11F877C6B00040A9C /* RUCropOverlayView-Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A0C5B01F877C6B00040A9C /* RUCropOverlayView-Debug.swift */; };
 		E0A0C5EB1F87A84000040A9C /* RUCropToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A0C5EA1F87A84000040A9C /* RUCropToolBar.m */; };
 		E0A0C5EE1F87A8E300040A9C /* RUCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A0C5ED1F87A8E300040A9C /* RUCropView.m */; };
 		E0A0C5F11F87AADE00040A9C /* RUCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A0C5F01F87AADE00040A9C /* RUCropViewController.m */; };
@@ -44,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E00113611F8BCDF400FF5AAA /* RUCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUCropOverlayView.h; sourceTree = "<group>"; };
+		E00113621F8BCDF400FF5AAA /* RUCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUCropOverlayView.m; sourceTree = "<group>"; };
 		E003F9C01F8774E90020854F /* RUCropController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUCropController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E003F9C31F8774E90020854F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E003F9C51F8774E90020854F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,10 +63,8 @@
 		E0A0C5AA1F87784F00040A9C /* RUActivityCroppedImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUActivityCroppedImageProvider.swift; sourceTree = "<group>"; };
 		E0A0C5AC1F8778BF00040A9C /* UIImage+CropRotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+CropRotate.swift"; sourceTree = "<group>"; };
 		E0A0C5AE1F877BE700040A9C /* RUCroppedImageAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUCroppedImageAttributes.swift; sourceTree = "<group>"; };
-		E0A0C5B01F877C6B00040A9C /* RUCropOverlayView-debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RUCropOverlayView-debug.swift"; sourceTree = "<group>"; };
+		E0A0C5B01F877C6B00040A9C /* RUCropOverlayView-Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RUCropOverlayView-Debug.swift"; sourceTree = "<group>"; };
 		E0A0C5E21F87A78100040A9C /* RUCropController-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RUCropController-Bridging-Header.h"; sourceTree = "<group>"; };
-		E0A0C5E31F87A78100040A9C /* RUCropOverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RUCropOverlayView.h; sourceTree = "<group>"; };
-		E0A0C5E41F87A78100040A9C /* RUCropOverlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RUCropOverlayView.m; sourceTree = "<group>"; };
 		E0A0C5E91F87A84000040A9C /* RUCropToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RUCropToolBar.h; sourceTree = "<group>"; };
 		E0A0C5EA1F87A84000040A9C /* RUCropToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RUCropToolBar.m; sourceTree = "<group>"; };
 		E0A0C5EC1F87A8E300040A9C /* RUCropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RUCropView.h; sourceTree = "<group>"; };
@@ -154,11 +154,11 @@
 			isa = PBXGroup;
 			children = (
 				E0A0C5E21F87A78100040A9C /* RUCropController-Bridging-Header.h */,
-				E0A0C5B01F877C6B00040A9C /* RUCropOverlayView-debug.swift */,
+				E0A0C5B01F877C6B00040A9C /* RUCropOverlayView-Debug.swift */,
 				E0F3C1DF1F8B830A00CE0342 /* RUCropScrollView.swift */,
-				E0A0C5E31F87A78100040A9C /* RUCropOverlayView.h */,
-				E0A0C5E41F87A78100040A9C /* RUCropOverlayView.m */,
 				E0A0C5E91F87A84000040A9C /* RUCropToolBar.h */,
+				E00113611F8BCDF400FF5AAA /* RUCropOverlayView.h */,
+				E00113621F8BCDF400FF5AAA /* RUCropOverlayView.m */,
 				E0A0C5EA1F87A84000040A9C /* RUCropToolBar.m */,
 				E0A0C5EC1F87A8E300040A9C /* RUCropView.h */,
 				E0A0C5ED1F87A8E300040A9C /* RUCropView.m */,
@@ -329,12 +329,12 @@
 				E0A0C5AF1F877BE700040A9C /* RUCroppedImageAttributes.swift in Sources */,
 				E0A0C5EB1F87A84000040A9C /* RUCropToolBar.m in Sources */,
 				E003F9C41F8774E90020854F /* AppDelegate.swift in Sources */,
-				E0A0C5B11F877C6B00040A9C /* RUCropOverlayView-debug.swift in Sources */,
+				E0A0C5B11F877C6B00040A9C /* RUCropOverlayView-Debug.swift in Sources */,
 				E0A0C5AB1F87784F00040A9C /* RUActivityCroppedImageProvider.swift in Sources */,
 				E0A0C5AD1F8778BF00040A9C /* UIImage+CropRotate.swift in Sources */,
-				E0A0C5E51F87A78100040A9C /* RUCropOverlayView.m in Sources */,
 				E0F3C1E01F8B830A00CE0342 /* RUCropScrollView.swift in Sources */,
 				E0A0C5A91F87776000040A9C /* RUCropViewControllerTransitioning.swift in Sources */,
+				E00113631F8BCDF400FF5AAA /* RUCropOverlayView.m in Sources */,
 				E0A0C5F11F87AADE00040A9C /* RUCropViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
