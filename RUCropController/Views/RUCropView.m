@@ -1174,7 +1174,6 @@ typedef NS_ENUM(NSInteger, RUCropViewOverlayEdge) {
         return;
     
     _editing = editing;
-    
     [self.gridOverlayView setGridHidden:!editing animated:animated];
     
     if (editing == NO) {

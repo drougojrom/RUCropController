@@ -7,6 +7,7 @@
 //
 
 #import "RUCropOverlayView.h"
+#import "RUCropController-Swift.h"
 
 static const CGFloat kTOCropOverLayerCornerWidth = 20.0f;
 

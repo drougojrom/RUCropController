@@ -6,7 +6,9 @@
 //  Copyright © 2017 Roman Ustiantcev. All rights reserved.
 //
 
-#import "RUCropOverlayView.h"
+#import <UIKit/UIKit.h>
+//#import "RUCropOverlayView.h"
+@class RUCropOverlayView;
 
 typedef NS_ENUM(NSInteger, RUCropViewCroppingStyle) {
     RUCropViewCroppingStyleDefault,     // The regular, rectangular crop box

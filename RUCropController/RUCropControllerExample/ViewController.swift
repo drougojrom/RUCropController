@@ -58,9 +58,13 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
             if self.croppingStyle == RUCropViewCroppingStyle.circular {
                 picker.pushViewController(cropController, animated: true)
             } else {
-                picker.dismiss(animated: true, completion: {
-                    self.present(cropController, animated: true, completion: nil)
-                })
+                picker.pushViewController(cropController, animated: true)
+                
+                //  TODO: invesitage crash
+//                picker.dismiss(animated: true, completion: {
+//
+//                    self.present(cropController, animated: true, completion: nil)
+//                })
             }
         }
         
