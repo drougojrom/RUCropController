@@ -8,7 +8,7 @@
 
 #import "RUCropView.h"
 #import "RUCropOverlayView.h"
-#import "RUCropScrollView.h"
+#import "RUCropController-Swift.h"
 
 #define TOCROPVIEW_BACKGROUND_COLOR [UIColor colorWithWhite:0.12f alpha:1.0f]
 
