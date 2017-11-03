@@ -76,57 +76,51 @@ import UIKit
         let boundsSize = bounds.size
         
         //border lines
-        
-        for i in 0..<4 {
-            let lineView = outerLineViews![i]
+        for (index, view) in outerLineViews!.enumerated() {
             var frame = CGRect.zero
-            
-            if i == 0 {
+            switch index {
+            case 0:
                 frame = CGRect(x: 0, y: -1.0, width: boundsSize.width + 2, height: 1.0)
-            } else if i == 1 {
+            case 1:
                 frame = CGRect(x: boundsSize.width, y: 0.0, width: 1.0, height: boundsSize.height)
-            } else if i == 2 {
+            case 2:
                 frame = CGRect(x: -1.0, y: boundsSize.height, width: boundsSize.width + 2, height: 1.0)
-            } else {
+            case 3:
                 frame = CGRect(x: -1.0, y: 0, width: 1.0, height: boundsSize.height+1)
+            default:
+                break
             }
-            lineView.frame = frame
+            view.frame = frame
         }
         
         // corner lines
         let cornerLines: Array<Array<UIView>> = [topLeftLineViews!, topRightLineViews!, bottomRightLineViews!, bottomLeftLineViews!]
         
-        for i in 0..<4 {
-            
-            let cornerLine = cornerLines[i]
+        for (index, cornerLine) in cornerLines.enumerated() {
             var verticalFrame = CGRect.zero
             var horizontalFrame = CGRect.zero
             
-            switch i {
+            switch index {
             case 0: // top left
                 verticalFrame = CGRect(x: -3.0, y: -3.0,
                                        width: 3.0, height: kRUCropOverLayerCornerWidth + 3.0)
                 horizontalFrame = CGRect(x: 0, y: -3.0,
                                          width: kRUCropOverLayerCornerWidth, height: 3.0)
-                break
             case 1: // top right
                 verticalFrame = CGRect(x: boundsSize.width, y: -3.0,
                                        width: 3.0, height: kRUCropOverLayerCornerWidth + 3.0)
                 horizontalFrame = CGRect(x: 0, y: -3.0,
                                          width: kRUCropOverLayerCornerWidth, height: 3.0)
-                break
             case 2: // bottom right
                 verticalFrame = CGRect(x: boundsSize.width, y: boundsSize.height-kRUCropOverLayerCornerWidth,
                                        width: 3.0, height: kRUCropOverLayerCornerWidth + 3.0)
                 horizontalFrame = CGRect(x: boundsSize.width - kRUCropOverLayerCornerWidth, y: boundsSize.height,
                                          width: kRUCropOverLayerCornerWidth, height: 3.0)
-                break
             case 3: // bottom left
                 verticalFrame = CGRect(x: -3.0, y: boundsSize.height-kRUCropOverLayerCornerWidth,
                                        width: 3.0, height: kRUCropOverLayerCornerWidth)
                 horizontalFrame = CGRect(x: -3.0, y: boundsSize.height,
                                          width: kRUCropOverLayerCornerWidth+3.0, height: 3.0)
-                break
             default:
                 break
             }
@@ -139,23 +133,21 @@ import UIKit
         var numberOfLines: Int = horizontalGridLines!.count
         var padding: CGFloat = (bounds.height - (thickness * CGFloat(numberOfLines))) / CGFloat(numberOfLines + 1)
         for i in 0..<numberOfLines {
-            let lineView: UIView? = horizontalGridLines![i]
             var frame: CGRect = CGRect.zero
             frame.size.height = thickness
             frame.size.width = bounds.width
             frame.origin.y = (padding * CGFloat(i + 1)) + CGFloat(thickness * CGFloat(i))
-            lineView?.frame = frame
+            horizontalGridLines![i].frame = frame
         }
         //grid lines - vertical
         numberOfLines = verticalGridLines!.count
         padding = (bounds.width - (thickness * CGFloat(numberOfLines))) / CGFloat(numberOfLines + 1)
         for i in 0..<numberOfLines {
-            let lineView: UIView? = verticalGridLines![i]
             var frame: CGRect = CGRect.zero
             frame.size.width = thickness
             frame.size.height = bounds.height
             frame.origin.x = (padding * CGFloat(i + 1)) + (thickness * CGFloat(i))
-            lineView?.frame = frame
+            verticalGridLines![i].frame = frame
         }
     }
     
