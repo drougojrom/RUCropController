@@ -45,7 +45,9 @@ typedef NS_ENUM(NSInteger, RUCropViewOverlayEdge) {
 @property (nonatomic, strong) UIView *overlayView;                  /* A semi-transparent grey view, overlaid on top of the background image */
 @property (nonatomic, strong) UIView *translucencyView;             /* A blur view that is made visible when the user isn't interacting with the crop view */
 @property (nonatomic, strong) id translucencyEffect;                /* The dark blur visual effect applied to the visual effect view. */
-@property (nonatomic, strong, readwrite) RUCropOverlayView *gridOverlayView;   /* A grid view overlaid on top of the foreground image view's container. */
+@property (nonatomic, strong, readwrite) RUCropOverlayView_Debug *gridOverlayView;   /* A grid view overlaid on top of the foreground image view's container. */
+//@property (nonatomic, strong, readwrite) RUCropOverlayView *gridOverlayView;   /* A grid view overlaid on top of the foreground image view's container. */
+
 @property (nonatomic, strong) CAShapeLayer *circularMaskLayer;      /* Managing the clipping of the foreground container into a circle */
 
 /* Gesture Recognizers */
@@ -240,7 +242,9 @@ typedef NS_ENUM(NSInteger, RUCropViewOverlayEdge) {
     }
     
     // The white grid overlay view
-    self.gridOverlayView = [[RUCropOverlayView alloc] initWithFrame:self.foregroundContainerView.frame];
+    self.gridOverlayView = [[RUCropOverlayView_Debug alloc] initWithFrame:self.foregroundContainerView.frame];
+    //self.gridOverlayView = [[RUCropOverlayView alloc] initWithFrame:self.foregroundContainerView.frame];
+
     self.gridOverlayView.userInteractionEnabled = NO;
     self.gridOverlayView.gridHidden = YES;
     [self addSubview:self.gridOverlayView];

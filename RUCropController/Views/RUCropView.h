@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import "RUCropOverlayView.h"
-@class RUCropOverlayView;
+#import "RUCropOverlayView.h"
+@class RUCropOverlayView_Debug;
 
 typedef NS_ENUM(NSInteger, RUCropViewCroppingStyle) {
     RUCropViewCroppingStyleDefault,     // The regular, rectangular crop box
@@ -39,7 +39,8 @@ typedef NS_ENUM(NSInteger, RUCropViewCroppingStyle) {
 /**
  A grid view overlaid on top of the foreground image view's container.
  */
-@property (nonnull, nonatomic, strong, readonly) RUCropOverlayView *gridOverlayView;
+@property (nonnull, nonatomic, strong, readonly) RUCropOverlayView_Debug *gridOverlayView;
+//@property (nonnull, nonatomic, strong, readonly) RUCropOverlayView *gridOverlayView;
 
 /**
  A delegate object that receives notifications from the crop view
